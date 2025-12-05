@@ -1,10 +1,10 @@
-# 🎨 Color Image Channel Manipulation using OpenCV
+#  Color Image Channel Manipulation using OpenCV
 
-### 📘 A College Project for **Digital Image Processing (DIP)**
+###  A College Project for **Digital Image Processing (DIP)**
 
 ---
 
-## 🧠 Project Overview
+##  Project Overview
 
 This project demonstrates various **color channel operations** on RGB images using **OpenCV, NumPy, and Matplotlib**.  
 It explores how digital images are represented and manipulated across the Red, Green, and Blue (RGB) color channels — key concepts in **Digital Image Processing**.
@@ -21,7 +21,7 @@ Each operation helps build intuition about how colors blend and how modifying on
 
 ---
 
-## ⚙️ Features & Functionality
+##  Features & Functionality
 
 | Operation | Description |
 |------------|-------------|
@@ -36,7 +36,7 @@ All transformations are displayed using Matplotlib and saved locally using OpenC
 
 ---
 
-## 🧩 Technologies Used
+##  Technologies Used
 
 - **Python 3.x**
 - **OpenCV (cv2)**
@@ -45,23 +45,30 @@ All transformations are displayed using Matplotlib and saved locally using OpenC
 
 ---
 
-## 📁 Project Structure
+DIP-Color-Channel-Manipulation/
+│
+├──  main.py                    # Main Python script (your code)
+├──   Test Flower.jpg           # Sample input image
+│
+├──  outputs/                   # Generated results folder
+│   ├── red_channel.jpg
+│   ├── green_channel.jpg
+│   ├── blue_channel.jpg
+│   ├── color_negative.jpg
+│   ├── rb_swapped.jpg
+│   ├── red_removed.jpg
+│   └── red_enhanced.jpg
+│
+├──  README.md                  # Project documentation
+├──  requirements.txt           # Python dependencies
+├──  .gitignore                 # Git ignore file
+└──  images/                    # Sample result images for README
+    ├── original.jpg
+    ├── red_channel_sample.jpg
+    └── color_negative_sample.jpg
 
-├── main.py # Main Python script
-├── Test Flower.jpg # Sample input image (provide your own)
-├── outputs/ # Optional folder to store generated results
-│ ├── red_channel.jpg
-│ ├── green_channel.jpg
-│ ├── blue_channel.jpg
-│ ├── color_negative.jpg
-│ ├── rb_swapped.jpg
-│ ├── red_removed.jpg
-│ └── red_enhanced.jpg
-└── README.md # Project documentation
 
----
-
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 1. **Clone the repository:**
 git clone https://github.com/yourusername/DIP-Color-Channel-Manipulation.git
@@ -83,7 +90,7 @@ python main.py
 
 ---
 
-## 🧠 Learning Outcomes
+##  Learning Outcomes
 
 - Understanding of RGB image representation in digital form.
 - Fundamentals of color space manipulation.
@@ -92,7 +99,7 @@ python main.py
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 
 This project emphasizes how **color channel manipulation** is a powerful foundation for more advanced image processing tasks such as:
 - Color enhancement
